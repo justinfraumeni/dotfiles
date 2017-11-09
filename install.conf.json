@@ -1,0 +1,32 @@
+[
+    {
+        "defaults": {
+            "link": {
+                "relink": true,
+				"create": true
+            }
+        }
+    },
+    {
+        "clean": ["~"]
+    },
+    {
+        "link": {
+			"~/.dotfiles": "",
+            "~/.vim": "vim",
+            "~/.vimrc": "vim/vimrc",
+			"~/.zshrc": "zsh/zshrc",
+			"~/.gitconfig":"git/.gitconfig"
+        }
+    },
+    {
+        "shell": [
+            ["git submodule update --init --recursive", "Installing configuration submodules..."],
+			["mkdir ~/tmp", "Initializing home directory structure..."],
+			["mkdir ~/dev"],
+			["mkdir ~/etc"],
+			["mkdir ~/bin"],
+			["mkdir ~/docs"]
+        ]
+    }
+]

@@ -1,0 +1,46 @@
+""Justin Fraumeni
+"".vimrc
+
+"not backwards compatible with vi
+set nocompatible
+
+"pathogen 
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+execute pathogen#infect()
+call pathogen#helptags()
+
+"enable syntax highlighting
+syntax on
+""4 space tabs
+set tabstop=4
+"decrease timeout length for esc
+set ttimeoutlen=5
+"dont show insert mode
+set noshowmode
+"show line numbers
+set number
+"highlight parens
+set showmatch
+"highlight searches
+set hlsearch
+"highlight as you search
+set incsearch
+"enable folding
+set foldenable
+"fold based on syntax usually
+set foldmethod=syntax
+"start with all folds open
+set foldlevelstart=99
+"always include status line
+set laststatus=2
+"got to love colors
+set t_Co=256
+"utf-8
+set encoding=utf-8
+"enable statusline by default
+set laststatus=2
+"enable powerline fonts on vim
+let g:airline_powerline_fonts = 1
+"Dark background on start
+set background=dark
+
