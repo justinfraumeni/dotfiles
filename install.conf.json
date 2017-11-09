@@ -16,7 +16,7 @@
             "~/.vim": "vim",
             "~/.vimrc": "vim/vimrc",
 			"~/.zshrc": "zsh/zshrc",
-			"~/.gitconfig":"git/.gitconfig"
+			"~/.gitconfig":"git/gitconfig"
         }
     },
     {
