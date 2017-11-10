@@ -45,3 +45,5 @@ let g:airline_powerline_fonts = 1
 set background=dark
 "flavor of the month
 colorscheme solarized
+"tabline
+let g:airline#extensions#tabline#enabled = 1
