@@ -47,3 +47,9 @@ set background=dark
 colorscheme solarized
 "tabline
 let g:airline#extensions#tabline#enabled = 1
+"no whitespace detection
+let g:airline_detect_whitespace=0
+let g:airline#extensions#whitespace#enabled = 0
+"highlight cursor line
+set cursorline
+
