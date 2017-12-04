@@ -10,6 +10,6 @@ Standardizing enviornments helps simplify the configs; some pre-reqs are require
 
 1. GNU command line tools
 
-'''zsh
+```zsh
 brew install coreutils
-'''
+```
