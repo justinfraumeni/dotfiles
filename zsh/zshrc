@@ -15,9 +15,13 @@ SAVEHIST=10000
 #use vi key bindings in shell
 bindkey -v
 
+#OSX specific configuration
+if [ "$(uname 2> /dev/null)" = "Darwin" ]; then
+	PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+fi	
+
 #always have directory colors
 alias ls='ls --color=auto'
-
 
 #consistent terminal behavior
 TERM=xterm-256color
