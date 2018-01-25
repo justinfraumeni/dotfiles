@@ -1,9 +1,9 @@
 #Justin Fraumeni
 #zshrc
 
+
 setopt APPEND_HISTORY
 setopt SHARE_HISTORY
-# Lines configured by zsh-newuser-install
 
 #location of history file
 HISTFILE=~/.zsh_history

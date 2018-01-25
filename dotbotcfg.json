@@ -15,6 +15,7 @@
 			"~/.dotfiles": "",
             "~/.vim": "vim/vim",
             "~/.vimrc": "vim/vimrc",
+			"~/.zsh": "zsh/zsh",
 			"~/.zshrc": "zsh/zshrc",
 			"~/.gitconfig":"git/gitconfig"
         }
