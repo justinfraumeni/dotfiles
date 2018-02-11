@@ -19,6 +19,6 @@
 [submodule "vim/vim/bundle/loremipsum"]
 	path = vim/vim/bundle/loremipsum
 	url = https://github.com/vim-scripts/loremipsum.git
-[submodule "vim-blade"]
-	path = vim-blade
+[submodule "vim/vim/bundle/vim-blade"]
+	path = vim/vim/bundle/vim-blade
 	url = https://github.com/jwalton512/vim-blade.git
