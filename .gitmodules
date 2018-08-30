@@ -22,3 +22,6 @@
 [submodule "vim/vim/bundle/vim-blade"]
 	path = vim/vim/bundle/vim-blade
 	url = https://github.com/jwalton512/vim-blade.git
+[submodule "vim/vim/bundle/vim-vue"]
+	path = vim/vim/bundle/vim-vue
+	url = https://github.com/posva/vim-vue.git
