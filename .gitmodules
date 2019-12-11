@@ -16,9 +16,6 @@
 [submodule "vim/vim/bundle/vim-pathogen"]
 	path = vim/vim/bundle/vim-pathogen
 	url = https://github.com/tpope/vim-pathogen.git
-[submodule "vim/vim/bundle/loremipsum"]
-	path = vim/vim/bundle/loremipsum
-	url = https://github.com/vim-scripts/loremipsum.git
 [submodule "vim/vim/bundle/vim-blade"]
 	path = vim/vim/bundle/vim-blade
 	url = https://github.com/jwalton512/vim-blade.git
