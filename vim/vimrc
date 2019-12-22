@@ -43,7 +43,7 @@ set laststatus=2
 let g:airline_powerline_fonts = 1
 "Dark background on start
 set background=dark
-"flavor of the month
+"color theme
 colorscheme solarized
 "tabline
 let g:airline#extensions#tabline#enabled = 1

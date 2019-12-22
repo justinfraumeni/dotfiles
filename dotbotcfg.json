@@ -3,7 +3,7 @@
         "defaults": {
             "link": {
                 "relink": true,
-				"create": true
+		"create": true
             }
         }
     },
@@ -13,22 +13,15 @@
     {
         "link": {
 			"~/.dotfiles": "",
-            "~/.vim": "vim/vim",
-            "~/.vimrc": "vim/vimrc",
-			"~/.zsh": "zsh/zsh",
+            		"~/.vim": "vim",
+			"~/.config": "config/htop",
 			"~/.zshrc": "zsh/zshrc",
-			"~/.gitconfig":"git/gitconfig",
-			"~/.jsbeautifyrc":"jsbeautify/jsbeautifyrc"
+			"~/.gitconfig":"git/gitconfig"
         }
     },
     {
         "shell": [
-            ["git submodule update --init --recursive", "Installing configuration submodules..."],
-			["mkdir ~/tmp", "Initializing home directory structure..."],
-			["mkdir ~/dev"],
-			["mkdir ~/etc"],
-			["mkdir ~/bin"],
-			["mkdir ~/docs"]
+            		["git submodule update --init --recursive", "Installing configuration submodules..."]
         ]
     }
 ]
