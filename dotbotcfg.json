@@ -13,9 +13,10 @@
     {
         "link": {
 			"~/.dotfiles": "",
-            		"~/.vim": "vim",
+            "~/.vim": "vim",
 			"~/.config": "config/htop",
 			"~/.zshrc": "zsh/zshrc",
+			"~/.zsh": "zsh",
 			"~/.gitconfig":"git/gitconfig"
         }
     },
