@@ -37,19 +37,12 @@ set laststatus=2
 set t_Co=256
 "utf-8
 set encoding=utf-8
-"enable statusline by default
-set laststatus=2
-"enable powerline fonts on vim
-let g:airline_powerline_fonts = 1
 "Dark background on start
 set background=dark
 "color theme
 colorscheme solarized
-"tabline
-let g:airline#extensions#tabline#enabled = 1
-"no whitespace detection
-let g:airline_detect_whitespace=0
-let g:airline#extensions#whitespace#enabled = 0
 "highlight cursor line
 set cursorline
-
+"no weird highlighting for bold or italics
+au FileType tex hi clear texItalStyle
+au FileType tex hi clear texBoldStyle
